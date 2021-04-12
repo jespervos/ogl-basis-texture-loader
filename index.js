@@ -205,7 +205,7 @@ export class BasisTextureLoader {
       .then((message) => {
         var { mipmaps, width, height, format } = message;
 
-        var texture = new Texture(gl);
+        var texture = new Texture(gl, { width, height, generateMipmaps: false });
 
         mipmaps.isCompressedTexture = true;
         texture.image = mipmaps;
