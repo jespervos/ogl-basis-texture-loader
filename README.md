@@ -4,7 +4,7 @@ Adaptation of Threejs BasisTextureLoader for [OGL](https://github.com/oframe/ogl
 
 ## Usage
 
-Copy transcoder directory to your public directory.
+⚠️ Copy transcoder directory to your public directory.
 
 ```javascript
 // import
