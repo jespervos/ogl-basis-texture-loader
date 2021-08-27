@@ -1,5 +1,7 @@
 # ogl-basis-texture-loader
 
+⚠️ OGL now natively supports Basis Textures ⚠️
+
 Adaptation of Threejs BasisTextureLoader for [OGL](https://github.com/oframe/ogl)
 
 ## Usage
